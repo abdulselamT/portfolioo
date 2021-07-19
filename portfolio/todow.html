@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html id="whole">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+*{
+	padding: 0;
+	margin: 0;}
+#whole{
+background-color:cyan;
+
+
+}
+img{
+	height: 230px;
+	padding: 20px;
+}
+
+	ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+		width: 100%;
+		background-color: black;
+	}
+	li{
+		float: left;
+	}
+
+	li a{
+		display: bock;
+		width: 60px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: #111;
+		color: white;
+	}
+	a{
+		display: block;
+		padding: 8px;
+		background-color: black;
+	}
+	.intro{
+		width: 30%;
+		
+	}
+	.mineimage{
+		position: absolute;
+		left: 60%;
+		top: 5%;
+		animation: yes;
+		animation-duration: 4s;
+	}
+	
+	
+	</style>
+</head>
+<body>
+ <ul>
+  <li><a href="todow.html">Duis</a></li>
+  <li><a href="duis.html">Contact</a></li>
+   	 <li><a id="nightday" onclick="colorchange()" href="#">Nightmode</a>
+  <li style="float:right;"><a href="register.html">signup</a></li>
+  <li style="float:right;"><a href="login.html">login</a></li>
+</ul>
+
+<h3>one projects left off</h3>
+<div class="mineimage">
+<img src="images/dorm1.jpg">
+<img src="images/dorm2.jpg">
+</div>
+<br><br><br>
+<h2>I have got ACPC certificate as extreme programmer and first solver one problem in my first contest</h2>
+
+<img src="images/extreme.png">
+<img src="images/firsttosolve.png"><br>
+
+<h4>There are two projects leftoff</h4>
+<img src="images/club.png">
+
+<h1>
+	About me
+</h1>
+</body>
+<script>
+	i=0;
+	function colorchange(){
+		if (i%2==0){
+			document.getElementById("whole").style.background="#2F4F4F";
+			
+			i++;
+		}
+		else{
+		document.getElementById("whole").style.background="cyan";
+		i++;
+		}
+	}
+
+	function me(){
+		x=document.getElementById("mes1").value;
+		alert(x)
+	}
+</script>
+
+</html>

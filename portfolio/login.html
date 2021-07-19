@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LOG IN</title>
+<style type="text/css">
+	form{
+		position: absolute;
+		top: 30%;
+		left: 40%;
+		background-color: gray;
+	}
+	body{
+		background-color: black;
+	}
+*{
+	padding: 0;
+	margin: 0;}
+#whole{
+background-color:cyan;
+
+}
+img{
+	height: 230px;
+	padding: 20px;
+}
+
+	ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+		width: 100%;
+		background-color: black;
+	}
+	li{
+		float: left;
+	}
+
+	li a{
+		display: bock;
+		width: 60px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: #111;
+		color: white;
+	}
+	a{
+		display: block;
+		padding: 8px;
+		background-color: black;
+	}
+	.intrbo{
+		width: 30%;
+	}
+	
+	
+</style>
+</head>
+
+<body>
+<ul>
+  <li><a href="#">Duis</a></li>
+  <li><a href="duis.html">Contact</a></li>
+   <li><a href="#">PythonTutorials</a></li>
+   <li><a href="#">c++Tutorials</a>
+   	 <li><a id="nightday" onclick="colorchange()" href="#">Nightmode</a>
+  <li style="float:right;"><a href="register.html">signup</a></li>
+  <li style="float:right;"><a href="login.html">login</a></li>
+</ul>
+<form action="todow.html">
+<label>user name</label> <input type="text" name="username"><br><br>
+<label>password</label> <input type="password" name="password"><br><br>
+<input style="position: relative; left: 80px;width: 80px;" type="submit" name="login" value="login"><br><br><br>
+<a href="register.html"><button>signUp</button></a>
+</form>
+
+</body>
+<script type="text/javascript">
+	var x=document.getElementByName("demo");
+	document.write(x)
+
+
+
+</script>
+</html>
